@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+
+    background-color: #fff;
+}
+.menu-list{
+    
+    display: flex;
+    background-color: #fff;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item{
+    list-style: none;
+    width: 100px;
+    height: 40px;
+    
+    /* background-color: aquamarine; */
+}
+.menu-item a{
+    text-decoration: none;
+}
+.menu-item a span{
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    color: #000;
+}
+.line-effect{
+    width: 50px;
+    background-color: red;
+    position: fixed;
+    height: 2px;
+    pointer-events: none;
+    transition: all 0.25s linear;
+}
